@@ -1,3 +1,25 @@
-# Object_Detection-using ResNet50
+# Object Detection using ResNet50
 
-Object detection is fundamental in computer vision, crucial for automatically locating and categorizing objects within images or video frames. This study explores the application of deep learning techniques, particularly utilizing the ResNet50 architecture, to enhance the precision and computational efficiency of object detection tasks. By employing transfer learning and optimizing ResNet50 on annotated datasets, significant improvements in detection accuracy and speed were achieved. Findings include detailed performance metrics such as mean Average Precision (mAP) and processing time comparisons across different object detection frameworks. Plots illustrate the effectiveness of the ResNet50-based model in real-world scenarios, demonstrating its potential impact on fields ranging from autonomous systems to surveillance and image retrieval.
+Object detection is a cornerstone of computer vision, enabling systems to identify and localize objects in images or videos. This project explores an efficient approach to object detection using the **ResNet50** architecture, leveraging deep learning and transfer learning techniques.
+
+## Overview
+
+This project aims to:
+- Employ the ResNet50 convolutional neural network for object detection.
+- Utilize transfer learning to adapt the model to custom or benchmark object detection datasets.
+- Evaluate model performance based on **mean Average Precision (mAP)** and **inference speed**.
+- Compare ResNet50-based detection results with other common frameworks.
+
+ResNet50 is used as a feature extractor integrated into an object detection pipeline (e.g., using Faster R-CNN or a custom head), offering a strong trade-off between accuracy and speed.
+
+---
+
+##  Features
+
+-  **Transfer Learning** using pretrained ResNet50
+-  **Evaluation metrics**: mAP, precision, recall
+-  Visualized **bounding boxes** on detection results
+-  **Optimized** for fast training and inference
+-  Easily extendable to different datasets
+
+
